@@ -1,0 +1,43 @@
+html body {
+  margin: 0px;
+  color: #d4d4d4;
+  font-family: Arial;
+}
+
+button {
+  background-color: #363636;
+  color: #d4d4d4;
+  font-family: Arial;
+  border: 1px solid #5f5b63;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+button:disabled {
+  background-color: #5f5b63;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+  width: 10px; /* ширина для вертикального скролла */
+  height: 10px; /* высота для горизонтального скролла */
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 5px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #d4d4d4;
+  height: 24px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
